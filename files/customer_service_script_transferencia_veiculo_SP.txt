@@ -1,0 +1,43 @@
+# Customer Service Script: Transferência de Veículo em São Paulo
+
+## 1. Introdução
+- Saudações e apresentação do atendente.
+- Explicação breve sobre o serviço de transferência de veículo.
+
+## 2. Cliente expressa interesse em transferir um veículo
+- Perguntar ao cliente se já possui os documentos necessários para a transferência.
+
+## 3. Opção 1: Transferência digital
+- Informar que a transferência pode ser feita online, através do site do Detran.
+
+## 4. Passos para transferência digital
+1. Acessar o site do Detran.
+2. Realizar login ou criar uma conta.
+3. Preencher o formulário de transferência.
+4. Anexar os documentos necessários.
+5. Confirmar o pagamento das taxas.
+6. Aguardar a confirmação da transferência.
+
+## 5. Opção 2: Transferência presencial
+- Informar que também é possível realizar a transferência pessoalmente em um posto do Detran.
+
+## 6. Passos para transferência presencial
+1. Coletar todos os documentos necessários.
+2. Ir até um posto do Detran.
+3. Preencher o formulário de transferência no local.
+4. Pagar as taxas necessárias.
+5. Aguardar o processamento da transferência.
+
+## 7. Informações sobre taxas
+- Explicar quais são as taxas envolvidas no processo de transferência e formas de pagamento.
+
+## 8. Tempo de conclusão da transferência
+- Informar ao cliente o tempo estimado para a conclusão do processo, tanto para a opção digital quanto presencial.
+
+## 9. Agradecimento e encerramento
+- Agradecer ao cliente pela ligação e pela preferência.
+- Informar que está à disposição para qualquer outra dúvida.
+
+## 10. Links úteis
+- Fornecer links para o site do Detran e outros recursos relevantes.
+
