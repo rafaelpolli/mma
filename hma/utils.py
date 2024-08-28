@@ -1,4 +1,4 @@
-from typing import Annotated, List
+langfrom typing import Annotated, List
 
 from langchain_community.document_loaders import WebBaseLoader
 #from langchain_community.tools.tavily_search import TavilySearchResults
@@ -30,10 +30,14 @@ from langchain.output_parsers.openai_functions import JsonOutputFunctionsParser
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import BaseMessage, HumanMessage
+from langchain.pydantic_v1 import BaseModel, Field
 
 from langgraph.graph import END, StateGraph, START
 
 WORKING_DIRECTORY = Path(os.environ["WORKING_DIRECTORY"])
+
+class SearchInput(BaseModel):
+    query: str = Field(description="should be a search query")
 
 @tool
 def search_on_web(question: Annotated[str, "The user question to be searced in the index."],
@@ -43,7 +47,8 @@ def search_on_web(question: Annotated[str, "The user question to be searced in t
     """Use this to search the internet to gete more information about any question. The information might be wrong"""
     
     params = {
-    "q" : question + ' do Itaú Unibanco',
+    "q" : question #+ ' do Itaú Unibanco'
+        ,
     "h1" : language,
     "g1" : country,
     "start" : 0
@@ -84,7 +89,8 @@ def search_on_web(question: Annotated[str, "The user question to be searced in t
 
 def vector_store_init(persist_directory: str = "data",
                         collection_name: str = "gdp",
-                        doc: str = "content.txt"):
+                        doc: str = "content.txt",
+                     append: bool = False):
     
     os.environ["PERSIST_DIRECTORY"] = persist_directory
     os.environ["COLLECTION_NAME"] = collection_name
@@ -107,7 +113,7 @@ def vector_store_init(persist_directory: str = "data",
     docs = text_splitter.create_documents(pages)
     
     # If the collection is empty, create a new one
-    if len(collection['ids']) == 0:
+    if append:
         # Create a new Chroma database from the documents
         chroma_db = Chroma.from_documents(
             documents=docs, 
@@ -118,10 +124,10 @@ def vector_store_init(persist_directory: str = "data",
     
         # Save the Chroma database to disk
         chroma_db.persist()
-        
+    return chroma_db
 
 # Define the custom search tool
-@tool
+@tool("search-tool", args_schema=SearchInput, return_direct=False)
 def chromadb_search(query: str) -> list:
     """
     Perform a search in the ChromaDB collection using OpenAI embeddings.
