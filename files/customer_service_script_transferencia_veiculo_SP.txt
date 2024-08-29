@@ -1,43 +1,46 @@
-# Customer Service Script: Transferência de Veículo em São Paulo
+# Script de Atendimento - Transferência de Veículo no Estado de SP
 
 ## 1. Introdução
-- Saudações e apresentação do atendente.
-- Explicação breve sobre o serviço de transferência de veículo.
+Atendente: "Olá! Bem-vindo ao nosso serviço de atendimento. Como posso ajudar você hoje?"
 
-## 2. Cliente expressa interesse em transferir um veículo
-- Perguntar ao cliente se já possui os documentos necessários para a transferência.
+## 2. Cliente solicita informações sobre transferência de veículo
+Cliente: "Eu gostaria de saber como transferir um veículo no estado de São Paulo."
 
-## 3. Opção 1: Transferência digital
-- Informar que a transferência pode ser feita online, através do site do Detran.
+## 3. Atendente explica opções: presencial ou online
+Atendente: "Claro! Posso te ajudar com isso. A transferência de propriedade de um veículo em São Paulo pode ser feita de forma presencial ou online. Você gostaria de saber o processo completo ou tem alguma preferência específica?"
 
-## 4. Passos para transferência digital
-1. Acessar o site do Detran.
-2. Realizar login ou criar uma conta.
-3. Preencher o formulário de transferência.
-4. Anexar os documentos necessários.
-5. Confirmar o pagamento das taxas.
-6. Aguardar a confirmação da transferência.
+## 4. Processo presencial
+**Se o cliente optar pelo processo presencial:**
 
-## 5. Opção 2: Transferência presencial
-- Informar que também é possível realizar a transferência pessoalmente em um posto do Detran.
+Atendente: "Para realizar a transferência presencialmente, você precisará dos seguintes documentos:
 
-## 6. Passos para transferência presencial
-1. Coletar todos os documentos necessários.
-2. Ir até um posto do Detran.
-3. Preencher o formulário de transferência no local.
-4. Pagar as taxas necessárias.
-5. Aguardar o processamento da transferência.
+## 5. Documentos necessários para a transferência presencial
+1. **Documento de Identidade** (RG ou CNH) do comprador e do vendedor.
+2. **Certificado de Registro de Veículo (CRV)**, que deve ser assinado pelo vendedor e pelo comprador.
+3. **Comprovante de endereço** do comprador.
+4. **Laudo de Vistoria**, caso o veículo tenha mais de 10 anos.
+5. **Pagamento da taxa de transferência**, que varia de acordo com a tabela do Detran-SP.
 
-## 7. Informações sobre taxas
-- Explicar quais são as taxas envolvidas no processo de transferência e formas de pagamento.
+## 6. Agendamento no Detran ou Poupatempo
+"Você pode agendar um atendimento em um posto do Detran ou no Poupatempo. Você gostaria de saber mais sobre como agendar um atendimento?"
 
-## 8. Tempo de conclusão da transferência
-- Informar ao cliente o tempo estimado para a conclusão do processo, tanto para a opção digital quanto presencial.
+## 7. Processo online
+**Se o cliente optar pelo processo online:**
 
-## 9. Agradecimento e encerramento
-- Agradecer ao cliente pela ligação e pela preferência.
-- Informar que está à disposição para qualquer outra dúvida.
+Atendente: "Se preferir, você pode realizar a transferência online através do aplicativo do Detran-SP. Para isso, você precisará:
+
+## 8. Passos para transferência online no aplicativo do Detran-SP
+1. **Acessar o aplicativo** do Detran-SP.
+2. **Fazer login** com suas credenciais.
+3. **Selecionar a opção de transferência de veículo**.
+4. **Inserir os dados do veículo e do novo proprietário**.
+5. **Pagar a taxa de transferência** através do aplicativo.
+
+"O processo é rápido e você receberá uma confirmação assim que a transferência for concluída. Você gostaria de mais informações sobre o aplicativo?"
+
+## 9. Encerramento
+Atendente: "Espero que essas informações tenham sido úteis! Se você tiver mais alguma dúvida ou precisar de ajuda com algo mais, é só me avisar. Tenha um ótimo dia!"
 
 ## 10. Links úteis
-- Fornecer links para o site do Detran e outros recursos relevantes.
-
+- [Detran-SP: Transferência de Veículo](https://www.detran.sp.gov.br/wps/portal/portaldetran/cidadao/veiculos/fichaservico/TransferenciaVeiculo)
+- [Agendamento no Poupatempo](https://www.poupatempo.sp.gov.br)

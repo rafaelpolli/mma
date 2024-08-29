@@ -1,10 +1,10 @@
-1. Introdução
-2. Cliente expressa interesse em transferir um veículo
-3. Opção 1: Transferência digital
-4. Passos para transferência digital
-5. Opção 2: Transferência presencial
-6. Passos para transferência presencial
-7. Informações sobre taxas
-8. Tempo de conclusão da transferência
-9. Agradecimento e encerramento
-10. Links úteis
+1. 1. Introdução
+2. 2. Cliente solicita informações sobre transferência de veículo
+3. 3. Atendente explica opções: presencial ou online
+4. 4. Processo presencial
+5. 5. Documentos necessários para a transferência presencial
+6. 6. Agendamento no Detran ou Poupatempo
+7. 7. Processo online
+8. 8. Passos para transferência online no aplicativo do Detran-SP
+9. 9. Encerramento
+10. 10. Links úteis
